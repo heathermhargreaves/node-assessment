@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "start": "node server.js"
   },
   "devDependencies": {
     "ava": "^0.15.2",
@@ -8,5 +9,24 @@
     "lodash": "^4.14.1",
     "supertest": "^2.0.0",
     "supertest-as-promised": "^3.2.0"
+  },
+  "name": "node-assessment",
+  "description": "## Set up your node server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/node-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/node-assessment/issues"
+  },
+  "homepage": "https://github.com/DevMountain/node-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0"
   }
 }
